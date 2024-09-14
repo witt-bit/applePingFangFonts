@@ -4,10 +4,10 @@ fontName=$1
 
 case ${fontName} in
   "pingFang" | "PingFang" | "pingfang" | "Ping Fang")
-    fontPath="pingFang/pingFang-SC/PingFangSC-Regular.otf";
+    fontPath="pingFang/pingFangSC/PingFangSC-Regular.otf";
     ;;
   "PingFangRelaxed" | "pingFangRelaxed" | "PingFang-Relaxed" | "pingFang-Relaxed")
-    fontPath="pingFangRelaxed/pingFangRelaxed-SC/PingFangRelaxedSC-Regular.otf";
+    fontPath="pingFangRelaxed/pingFangRelaxedSC/PingFangRelaxedSC-Regular.otf";
     ;;
   *)
     echo "Support 'PingFang' , 'PingFangRelaxed' ."
