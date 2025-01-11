@@ -9,8 +9,11 @@ case ${fontName} in
   "PingFangRelaxed" | "pingFangRelaxed" | "PingFang-Relaxed" | "pingFang-Relaxed")
     fontPath="pingFangRelaxed/pingFangRelaxedSC/PingFangRelaxedSC-Regular.otf";
     ;;
+  "PingFangUI" | "pingFangUI" | "PingFang-UI")
+    fontPath="pingFangUI/pingFangUISC/PingFangUISC-Black.ttf";
+    ;;
   *)
-    echo "Support 'PingFang' , 'PingFangRelaxed' ."
+    echo "Support 'PingFang' , 'PingFangRelaxed' , 'PingFangUI' ."
     exit 1;
     ;;
 esac
